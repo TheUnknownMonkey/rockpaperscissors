@@ -14,6 +14,7 @@ const choices = ["Rock", "Paper", "Scissors"];
 let playerCoice =0;
 let ch = [rock, paper, scissors];
 
+console.log("test")
 function singleGame (playerCoice){
   let computeChoice = Math.floor(Math.random()*3);
   ch[computeChoice].style.border="10px solid red";
