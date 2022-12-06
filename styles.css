@@ -44,8 +44,8 @@
     width: 300px;
     height: 300px;
     object-fit:contain;
-    border: 6px solid black;
-    border-radius: 15%;
+    
+    
 }
 .bottom-section{
     display: flex;
@@ -64,8 +64,20 @@
 button{
     border: none;
     background-color: transparent;
+    border: 6px solid black;
+    border-radius: 15%;
 }
 button :hover{
     cursor:pointer;
     size: 1.5rem;
+}
+.instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#announcer{
+    width: 60%;
+
 }
